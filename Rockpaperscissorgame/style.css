@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.heading{
+    height: 7vh;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vh;
+}
+.content{
+    background-color: palevioletred;
+    height: 20vh;
+    font-size: 4vh;
+}
+.Qtext{
+    text-align: center;
+}
+.Qoption{
+    text-align: center;
+}
+.btn {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 3vh;
+    margin: 2vh;
+    border-radius: 2vh;
+    cursor: pointer;
+}
+.imagecontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.playerdisplay{
+    display: none;
+    height: 40vh;
+    width: 30vw;  
+}
+.computerdisplay{
+    display: none;
+    height: 40vh;
+    width: 30vw;
+}
+#winner {
+    text-align: center;
+    font-size: 10vh;
+    color: red;
+}
+.scorecontainer {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(237, 237, 135);
+    
+}
+.player_profile{
+    display: flex;
+    align-items: center;
+    height:25vh;
+}
+#profilepic {
+    height:25vh;
+}
+.bot_profile{
+    display: flex;
+    align-items: center;
+    height:25vh;
+}
+#botpic {
+    height:25vh;
+}
+.scoresize{
+    margin-right: 3vh;
+    font-size: 10vh;
+}
+.text{
+    font-size: 3vh;
+    color: red;
+    margin-left: 8vh;
+}
+.textcontainer{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(237, 237, 135);
+}

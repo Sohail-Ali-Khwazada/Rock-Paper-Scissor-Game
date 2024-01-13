@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="heading">Rock Paper Scissor (First to 10 wins)</div>
+        <div class="scorecontainer">
+            <div class="player_profile">
+                <img src="images/playerprofile.png" id = "profilepic">
+                <div class="plscorecard">
+                    <h1 id = "playerscore" class = "scoresize">0</h1>
+                </div>
+            </div>
+
+            <div class="bot_profile">
+                <div class="compscorecard">
+                    <h1 id = "computerscore" class = "scoresize">0</h1>
+                </div>
+                <img src="images/botprofile.png" id = "botpic">   
+            </div>
+        </div>
+
+        <div class="textcontainer">
+            <div class="text"><h1>You</h1></div>
+            <div class="text"><h1>Computer</h1></div>
+        </div>
+        
+
+        <div class="content">
+            <p class="Qtext">Rock,Paper or Scissor ?</p>
+            <p class="Qoption">
+            <button class="btn" id = "rock">Rock</button>
+            <button class="btn" id = "paper">Paper</button>
+            <button class="btn" id = "scissor">Scissor</button>
+            </p>
+        </div>
+        <div class="imagecontainer">
+            <div class="playerdisplay">
+                <!-- <img src="images/rock.png"> -->
+                <!-- <img src="images/scissor.png"> -->
+
+            </div>
+            <h1 id = "winner"></h1>
+            <div class="computerdisplay">
+                <!-- <img src="images/paper.jpeg" height="200px"> -->
+                <!-- <img src="images/scissor.png"> -->
+            </div>
+        </div>
+        
+       
+    </div>
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>
